@@ -3,4 +3,7 @@
     <string name="texto_macarraocarbonara">MACARRÃO CARBONARA</string>
     <string name="texto_risotto">RISOTTO CREMOSO</string>
     <string name="texto_rondelli">RONDELLI ITALIANO</string>
+    <string name="texto_coca">COCA COLA</string>
+    <string name="texto_fanta">FANTA</string>
+    <string name="texto_sprite">SPRITE LATA</string>
 </resources>

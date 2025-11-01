@@ -2,15 +2,15 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/tela_alimentos_front_end"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".TelaBebidasBackEnd">
 
     <ScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -21,40 +21,40 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView8"
+                android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/texto_macarraocarbonara" />
+                android:text="@string/texto_coca" />
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/imageView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/maca" />
+                app:srcCompat="@drawable/coca" />
 
             <TextView
-                android:id="@+id/textView9"
+                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/texto_risotto" />
+                android:text="@string/texto_fanta" />
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/imageView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/risoto" />
+                app:srcCompat="@drawable/fanta" />
 
             <TextView
-                android:id="@+id/textView10"
+                android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/texto_rondelli" />
+                android:text="@string/texto_sprite" />
 
             <ImageView
-                android:id="@+id/imageView4"
+                android:id="@+id/imageView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/rondelli" />
+                app:srcCompat="@drawable/sprite" />
         </LinearLayout>
     </ScrollView>
 
